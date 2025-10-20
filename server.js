@@ -18,5 +18,5 @@ app.get("/", (req, res) => {
 app.use("/api/users", UserRoutes);
 
 app.listen(process.env.PORT, () => {
-    console.log(`Server running on PORT ${process.env.PORT}`);
+    console.log(`✅ Server running on PORT ${process.env.PORT}`);
 })
